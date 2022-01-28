@@ -6,4 +6,4 @@ from .models import user
 # Register your models here.
 @admin.register(user)
 class useradmin(admin.ModelAdmin):
-    list_display =('id','Type','name')
+    list_display =('id','Type','name','pic')
